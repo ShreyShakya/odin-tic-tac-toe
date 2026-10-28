@@ -1,0 +1,22 @@
+body {
+    align-items: center;
+    justify-items: center;
+    min-height: 100vh;
+}
+
+.cell-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+.cell-container div {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
